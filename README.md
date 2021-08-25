@@ -6,3 +6,17 @@
 
 ![img](https://github.com/lichunfei369/SwiftUI/blob/c94cb9834d7fa2256b4223f569c2260fcceea6e9/Furniture-Shop-App-UI-SwiftUI-main/ui.png)
 
+###
+```
+  NavigationView{
+  }
+  .navigationTitle("首页")
+  .onAppear{
+     // viewDidAppear() | viewDidDisappear() 等价于SwiftUI的方法onAppear() 和 onDisappear().
+  }
+  .onDisappear{
+  
+  }
+```
+
+
